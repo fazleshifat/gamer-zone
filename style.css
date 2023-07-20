@@ -1,0 +1,678 @@
+*{
+    padding: 0;
+    margin:0;
+    
+}
+
+/* navbar style starts from here */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-header{
+    display: flex;
+}
+
+.nav-icon ul{
+    display:flex;
+    
+    padding-top: 30px;
+    padding-right: 100px;
+}
+
+.nav-icon li a{
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    gap: 5px;
+    font-family: sans-serif;
+}
+
+.nav-icon li button{
+    padding:10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(124, 148, 148, 0.381);
+   
+    
+}
+.nav-icon li i {
+    color: red;
+}
+
+.youtube img{
+    width:50px;
+    height: 30px;
+}
+
+nav img{
+    width:60px;
+    height: 30px;
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nav-header h3{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-top: 27px;
+    padding-bottom: 10px;
+    font-family: 'Work Sans', sans-serif;
+    
+
+
+}
+
+.span-G{
+    color: palevioletred;
+}
+ nav ul{
+    padding-top: 20px;
+    padding-right: 10px;
+ }
+nav li{
+    display:inline-flex;
+    padding: 8px;
+    
+    
+}
+
+nav li img{
+    width: 33px;
+height: 24px;
+padding-right: 20px;
+padding-left: -40px;
+
+}
+
+.li{
+    background-color: aqua;
+}
+
+/* banner section styles start from here */
+
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.banner-container{
+    border: 2px solid black;
+  
+}
+
+.banner-container-1{
+    width:500px;
+    height: 450px;
+    background-image: url("images/Group 14.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color:rgba(255, 255, 255, 0.311);
+    
+}
+
+
+
+.banner-container-1 h1{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size:70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    color:#F948B2;
+
+}
+
+.banner-container-1 h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 60px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+.banner-container-1 img{
+   
+    width: 20px;
+    padding: 10px;
+}
+
+
+
+
+.banner-container-1 ul li{
+    padding-left: 120px;
+    font-family: sans-serif;
+    font-size: 13px;
+    
+}
+
+.banner-2-image {
+    width: 450px;
+    padding-right: 150px;
+}
+
+
+.goat-1{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    
+}
+
+
+.banner-button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding:8px;
+}
+.btn-1{
+    background-color: palevioletred;
+    font-family: ;
+    color: white;
+    margin-right: 10px;
+    margin-top:10px;
+    padding:10px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    font-family: Work Sans', sans-serif;
+}
+
+.btn-2{
+    background-color: skyblue;
+    font-family: ;
+    color: white;
+    margin-right: 10px;
+    margin-top:10px;
+    padding:10px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    font-family: Work Sans';
+}
+
+/* teams banners section design */
+
+.banner-team{
+    display: flex;
+}
+
+
+.banner-team-1 img{
+    width: 550px;
+    padding-left:140px;
+}
+
+.banner-team-2 h2,p,button,h4,h1{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-team-2 button{
+    padding: 10px;
+}
+
+
+.banner-team-2 h2{
+    color: #F948B2;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Work Sans';
+    padding-bottom: 18px;
+    padding-left: 130px;
+}
+
+.banner-team-2 p{
+    font-family: 'Segoe UI';
+    color: #534C64;;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 30px; 
+    text-align: end;  
+    padding:0 80px; 
+    margin: 5px;
+}
+
+.banner-team-2 button{
+    padding: 18px 40px;
+    background-color: palevioletred;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    margin-left: 280px;
+    margin-top: 20px;
+   
+}
+
+.banner-team-2 h4{
+    font-family: 'Courier New';
+    font-size:18px;
+    padding-top: 20px;
+    text-align:end ;
+    padding-right: 100px;
+    color: rgba(0, 0, 0, 0.698);
+}
+
+.banner-team-2 h1{
+    
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: 'Work Sans';
+    text-align:end ;
+    padding-right: 100px;
+    color:rgba(0, 0, 0, 0.698);
+}
+
+/* more games section design */
+
+.funny-videos-container{
+    text-align: center;
+    padding-top:100px;
+    padding-bottom: 60px;
+
+}
+
+.funny-videos-container h2{
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+.funny-videos{
+    color:palevioletred;
+
+}
+
+.funny-videos-container p{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.games-container{
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    
+}
+
+.games-container-image{
+  padding:0 50px;
+}
+
+.games-container-image img{
+    width: 200px;
+    row-gap: 0;
+    
+}
+.games-container-image p{
+    font-family: sans-serif ;
+    font-size: 12px;
+    text-align: justify;
+    padding-top: 8px;
+
+}
+.games-container-image 7:hover{
+    background: rgba(43, 193, 203, 0.687);
+    transform: translatey(100%);
+    transition: .5s ease;
+}
+
+/* play online games section design */
+
+.play-online-container{
+
+     display: flex;
+    }
+
+.play-online-container-2 .play-online-image-1{
+    width: 400px;
+    padding-top: 100px;
+    padding-left: 200px;
+    position:absolute;
+
+} 
+.play-online-container-2 .play-online-image-2{
+    position: relative;
+    width: 150px;
+    padding-top: 380px;
+    padding-left: 500px;
+   
+    
+}
+.play-online-container-para h2{
+    font-family: Work Sans;
+    font-size: 33px;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+.span-play-games{
+    color: #F948B2;
+}
+.play-online-container-para p{
+    text-align: justify;
+    padding-left: 100px;
+    padding-top: 30px;
+    line-height: 0.8cm;
+    font-family: sans-serif;
+}
+
+/* more games icon section related design */
+
+
+
+.games-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    padding-top: 80px;
+    
+    background-color: azure;
+    
+}
+
+.games-icon-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    padding-top: 20px;
+    background-color: azure;
+    padding-bottom: 100px;
+}
+
+.games-icon a{
+    background-color: rgb(235, 245, 245);
+    padding: 5px 10px;
+    margin: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+    border-radius: 30px;
+    color: black;
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    
+}
+.games-icon-2 a{
+    background-color: rgb(235, 245, 245);
+    padding: 5px 10px;
+    margin: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+    border-radius: 30px;
+    color: black;
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    
+}
+
+.games-icon a:hover{
+    border: 1px solid rgba(0, 0, 0, 0.544);
+    background-color: white;
+    transition: 0.5s;
+}
+
+.games-icon-2 a:hover{
+    border: 1px solid rgba(0, 0, 0, 0.544);
+    background-color: white;
+    transition: 0.5s;
+    
+}
+
+.games-icon img{
+    width: 40px;
+    
+
+}
+
+.games-icon-2 img{
+    width: 40px;
+}
+
+/* footer section desgin */
+
+footer {
+    color: white;
+    text-align: center;
+    background: #0B0223;
+    padding-top: 50px;
+    padding: 100px 300px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-logo p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer-logo span{
+    color: rgb(255, 39, 190);
+}
+
+.footer-logo p{
+    font-size: 40px;
+    font-family: 'Work Sans';
+}
+
+.footer-links-text {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 20px;
+    margin-top: 50px;
+    font-family:'Work Sans';
+    font-weight:500 ;
+}
+
+.footer-icons {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    padding-left: 150px;
+}
+
+.footer-icons img {
+    width: 2vw;
+    filter: contrast(0.2);
+}
+
+.footer-texts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: gray;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+footer p{
+   font-family: 'Segoe UI';
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-icon ul li{
+        display: flex;
+        flex-direction: column;
+        }
+
+    .banner-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-team{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-team-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-team-1 img{
+        width: 80%px;
+    }
+    
+    .banner-team-2{
+        display:grid;
+        
+    }
+
+    .online-games-container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .funny-videos-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .play-online-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .play-online-container-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: ;
+    }
+
+    .play-online-container-2 img{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        padding-right: 200px;
+        width: 150px;
+    }
+
+    .games-container{
+        display: flex;
+        flex-direction: column;
+        
+        
+
+    }
+
+    .games-container img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        padding-left: 100px;
+    }
+    .games-container img p{
+        text-align: justify;
+    }
+
+    .play-online-container{
+        display:flex ;
+        align-items: center;
+        align-items: center  ;
+    }
+
+
+    .games-icon{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .games-icon-2{
+        display: flex;
+        flex-direction: row;
+    }
+    .games {
+        padding: 20px;
+    }
+
+    
+
+    .games-icon a{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+
+    .games-icon-2 a{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+
+
+    footer {
+        padding: 20px;
+        font-size: 10px;
+    }
+
+    .footer-links-text {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .footer-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+        margin: auto;
+    }
+    .footer-icons img{
+        margin: auto;
+    }
+    .footer-texts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+
